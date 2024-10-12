@@ -31,6 +31,8 @@ This Android application scans QR codes containing date and time information, se
     - The app uses the camera to scan a QR code containing the alarm time in the format `yyyy-MM-dd hh:mm AM/PM Day`.
     - Once scanned, the app parses the date and time from the QR code and sets an alarm using Android's `AlarmManager`.
 
+<img src="Screenshot 2024-10-12 170911.png" alt="QR Screenshot" width="618" height="301">
+
 2. **Alarm Service**:
     - The `AlarmService` plays the alarm sound in the background using the default alarm sound or a notification sound if the alarm sound is unavailable.
     - The app uses a foreground service to ensure that the alarm continues to play even if the app is in the background.
